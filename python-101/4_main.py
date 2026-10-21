@@ -1,7 +1,9 @@
 import datetime, bday_messages
 
 today = datetime.date.today()
-next_birthday = datetime.date(2026, 4, 9)
+next_birthday = datetime.date(today.year, 4, 9)
+if next_birthday < today:
+    next_birthday = next_birthday.replace(year=today.year + 1)
 days_away = next_birthday - today
 
 if next_birthday == today:
