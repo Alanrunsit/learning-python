@@ -6,5 +6,6 @@ __pycache__/
 # secrets
 .env
 
-# separate repo (github.com/Alanrunsit/blog_generator.py.)
+# separate repo (github.com/Alanrunsit/blog-generator)
 blog_generator.py./
+blog-generator/
